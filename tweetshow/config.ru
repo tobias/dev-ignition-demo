@@ -1,0 +1,4 @@
+require 'tweetshow'
+
+
+run TweetShow

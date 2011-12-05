@@ -1,0 +1,29 @@
+!!!
+%html
+  %title Tweedle Dee
+  %link{:rel=>"stylesheet", :type=>"text/css", :href=> '/style.css'}
+  :javascript
+    var stomp_url = "#{stomp_url}";
+  %script{:type=>"text/javascript", :src=> '/jquery.min.js'}
+  %script{:type=>"text/javascript", :src=> '/stilts-stomp.js'}
+  %script{:type=>"text/javascript", :src=> '/ws.js'}
+
+  %body
+    #header
+      #title Tweedle Dumb
+      #notice
+    #key
+      %ul
+        %li.bieber
+          Bieber
+        %li.gaga
+          Gaga
+        %li.gaga.bieber
+          Bieber Gaga
+        %li.double-bieber
+          Double Bieber
+        %li.this-is-getting-absurd
+          Selena
+    %ul#tweets
+
+

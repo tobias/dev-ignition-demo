@@ -1,0 +1,77 @@
+#notices {
+    font-weight: bold;
+    color: red;
+}
+
+li {
+  background-color: white;
+}
+
+.gaga {
+  background-color: yellow;
+}
+
+.bieber {
+  background-color: blue;
+  color: white;
+}
+
+.double-bieber {
+ font-style: italic;
+}
+
+.this-is-getting-absurd {
+  font-weight: bold;
+}
+
+.gaga.bieber {
+  background-color: red;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#header {
+ font-weight: bold;
+}
+
+#title, #notice {
+    margin-bottom: 10px;
+} 
+
+#title {
+  float: left;
+  font-size: 1.5em;
+}
+
+#notice {
+  float: right;
+  font-size: 1.2em;
+}
+
+#key {
+  font-size: 1.5em;
+  clear: both;
+}
+
+#key ul {
+  display: inline;
+}
+
+#key ul li {
+  display: inline;
+  padding: 3px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+
+#tweets li {
+  margin-bottom: 3px;
+  font-size: 1.5em;
+}
+
+body {
+  background-color: #ddd;
